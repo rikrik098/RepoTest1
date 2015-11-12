@@ -8,7 +8,7 @@
 
 import UIKit
 
-<<<<<<< HEAD
+
 
 class Calculator: NSObject
 {
@@ -18,11 +18,12 @@ class Calculator: NSObject
         return x+y
     }
 
-=======
+
 class Calculator: NSObject
 {
+
     
->>>>>>> origin/master
     
-    
+}
+
 }
