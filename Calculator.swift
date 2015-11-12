@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+import Darwin
 
 class Calculator: NSObject
 {
@@ -36,6 +36,14 @@ class Calculator: NSObject
     func divide(x: Int, y: Int)-> Int
     {
         return x/y
+    }
+    
+    func quadraticFormula(x: Double, y: Double, z: Double)-> (a: Double, b: Double)
+    {
+        
+        let a = ((-y + sqrt(y*y-4*x*z))/2*x)
+        let b = ((-y - sqrt(y*y-4*x*z))/2*x)
+        return (a, b)
     }
     
 
