@@ -8,6 +8,15 @@
 
 import UIKit
 
-class Calculator: NSObject {
 
+class Calculator: NSObject
+{
+    
+    func add(x:Int,  y: Int)->Int
+    {
+        return x+y
+    }
+
+    
+    
 }
