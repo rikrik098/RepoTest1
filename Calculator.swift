@@ -13,12 +13,4 @@ class Calculator: NSObject
     
     
     
-    
-    
-    
-    func divide(Int x, Int y)
-    {
-        return x/y
-    }
-
 }
