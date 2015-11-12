@@ -32,6 +32,12 @@ class Calculator: NSObject
         return x-y
     }
     
+    
+    func divide(x: Int, y: Int)-> Int
+    {
+        return x/y
+    }
+    
 
 class Calculator: NSObject
 {
