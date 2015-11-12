@@ -18,11 +18,20 @@ class Calculator: NSObject
         return x+y
     }
     
+
     
     func multiply(x: Int, y: Int)-> Int
     {
         return x*y
     }
+
+
+
+    func subtract(x:Int, y:Int) -> Int
+    {
+        return x-y
+    }
+    
 
 class Calculator: NSObject
 {
