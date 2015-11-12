@@ -8,6 +8,17 @@
 
 import UIKit
 
-class Calculator: NSObject {
+class Calculator: NSObject
+{
+    
+    
+    
+    
+    
+    
+    func divide(Int x, Int y)
+    {
+        return x/y
+    }
 
 }
