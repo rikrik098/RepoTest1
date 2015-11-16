@@ -13,7 +13,7 @@ import Darwin
 class Calculator: NSObject
 {
     
-    func add(x:Int,  y: Int)->Int
+    func add(x:Int, y: Int)->Int
     {
         return x+y
     }
