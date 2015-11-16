@@ -46,6 +46,19 @@ class Calculator: NSObject
         return (a, b)
     }
     
+    func quad(a: Double, b: Double, c: Double)-> String{
+        
+        if((b*b) - (4*a*c) < 0){
+            var toReturn = "Imaginary Roots: "
+            toReturn += String(quadraticFormula(a, y: b, z: c));
+            return toReturn
+        }else{
+            var toReturn = "Roots: "
+            toReturn += String(quadraticFormula(a, y: b, z: c));
+            return toReturn
+        }
+    }
+    
 
 class Calculator: NSObject
 {
